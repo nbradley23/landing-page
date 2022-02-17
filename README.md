@@ -1,1 +1,1 @@
-# landing-page
+I will be creating a website from scratch using just a picture of a completed site as a reference. For the website I will be using Flexbox to set up the layout of the site and what I've already learned from the Odin Project to style it accordingly. Some Googleing may be required.
