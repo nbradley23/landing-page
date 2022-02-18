@@ -17,7 +17,7 @@ body {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    padding: 0px 150px;
+    padding: 0px 250px;
     
 }
 
@@ -46,13 +46,13 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 75px 150px 100px 150px;
+    padding: 75px 250px 100px 250px;
     gap: 50px;
 }
 
 .imgbox {
-    width: 350px;
-    height: 150px;
+    width: 500px;
+    height: 200px;
     background-color: #e5e7eb89;
     padding: 20px;
     display: flex;
@@ -76,6 +76,8 @@ h1 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 550px;
+    flex-shrink: 0;
 
 }
 
@@ -87,31 +89,34 @@ h1 {
 
 .leftinfo p {
     margin: 10px 0px;
-    color: #9e9fa0;
+    color: #e5e7eb;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 
 .signup {
     background-color: #3882f6;
     color: #e5e7eb;
-    padding: 8px 25px;
+    padding: 10px 30px;
     border: none;
     border-radius: 1em;
     margin-top: 5px;
+    font-size: 18px;
 }
 
 .boxsection {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 25px 150px 50px 150px;
+    align-items: space-evenly;
+    padding: 25px 300px 50px 300px;
     
 }
 
 .boxrow {
     display: flex;
-    gap: 35px;
+    gap: 50px;
+    justify-content: center;
 }
 
 .boxcolumn {
@@ -143,6 +148,7 @@ h1 {
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
+    text-align: center;
 }
 
 .quote {
@@ -151,7 +157,7 @@ h1 {
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
-    padding: 75px 150px;
+    padding: 75px 300px;
 }
 
 .quote p {
@@ -172,16 +178,16 @@ h1 {
     display: flex;
     justify-content: space-between;
     background-color: #3882f6;
-    margin: 100px 150px;
+    margin: 100px 200px;
     border-radius: .5em;
-    padding: 0px 20px;
+    padding: 0px 100px;
 }
 
 .actionleft {
     display: flex;
     flex-direction: column;
     flex: 4;
-    margin: 50px;
+    margin: 50px 0px;
 }
 
 .actionbutton {
@@ -195,13 +201,23 @@ h1 {
     border: 1px solid #f9faf8;
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 5px 20px;
+    padding: 5px 25px;
     border-radius: 1em;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .actionleft h3,p {
-    margin: 0;
+    margin: 3px 0px;
     color: #f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 35px;
+    color: #e5e7eb;
     font-family: Arial, Helvetica, sans-serif;
 }
